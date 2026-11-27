@@ -1,0 +1,26 @@
+
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, sans-serif;
+  background: #F4F7F5;
+  color: #123B35;
+}
+.form-input {
+  width: 100%;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 14px;
+  outline: none;
+  background: white;
+}
+
+.form-input:focus {
+  border-color: #16A085;
+}
